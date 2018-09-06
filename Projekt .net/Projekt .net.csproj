@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CB0A9590-BBD2-4732-8A48-BD614834ED5A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Projekt.net</RootNamespace>
+    <AssemblyName>Projekt.net</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="app3dio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="app3dio.Designer.cs">
+      <DependentUpon>app3dio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quiz1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quiz1.Designer.cs">
+      <DependentUpon>Quiz1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quiz2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quiz2.Designer.cs">
+      <DependentUpon>Quiz2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quiz3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quiz3.Designer.cs">
+      <DependentUpon>Quiz3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quiz4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quiz4.Designer.cs">
+      <DependentUpon>Quiz4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quiz5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quiz5.Designer.cs">
+      <DependentUpon>Quiz5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quiz6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quiz6.Designer.cs">
+      <DependentUpon>Quiz6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quiz7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quiz7.Designer.cs">
+      <DependentUpon>Quiz7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterForm.Designer.cs">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sign in.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sign in.Designer.cs">
+      <DependentUpon>Sign in.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Uspjesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Uspjesi.Designer.cs">
+      <DependentUpon>Uspjesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zadnja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zadnja.Designer.cs">
+      <DependentUpon>Zadnja.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="app3dio.resx">
+      <DependentUpon>app3dio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Quiz1.resx">
+      <DependentUpon>Quiz1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quiz2.resx">
+      <DependentUpon>Quiz2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quiz3.resx">
+      <DependentUpon>Quiz3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quiz4.resx">
+      <DependentUpon>Quiz4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quiz5.resx">
+      <DependentUpon>Quiz5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quiz6.resx">
+      <DependentUpon>Quiz6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quiz7.resx">
+      <DependentUpon>Quiz7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterForm.resx">
+      <DependentUpon>RegisterForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sign in.resx">
+      <DependentUpon>Sign in.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uspjesi.resx">
+      <DependentUpon>Uspjesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zadnja.resx">
+      <DependentUpon>Zadnja.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Database1.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Database1_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>if exist "$(TargetPath).locked" del "$(TargetPath).locked"
+ if not exist "$(TargetPath).locked" if exist "$(TargetPath)" move "$(TargetPath)" "$(TargetPath).locked"</PreBuildEvent>
+  </PropertyGroup>
+</Project>
